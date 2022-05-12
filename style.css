@@ -71,3 +71,25 @@ h1{
 .ability {
     margin-top: 100px;
 }
+.form p {
+   width: 30%;
+}
+.forms{
+   display:flex;
+   flex-direction: column;
+}
+.input_one{
+    margin-top: 20px;
+}
+.message_box{
+    width: 684px;
+    margin-top: 20px;
+}
+.bttn {
+    margin-top: 20px;
+    width: 100px;
+    height: 24px;
+    background: #F55800;
+    padding: 20px;
+    text-align: center;
+}
