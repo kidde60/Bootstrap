@@ -1,0 +1,61 @@
+body {
+    color: white;
+}
+.nav {
+    width: 40%;
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.work {
+    position: relative;
+  text-align: left;
+  color: white;
+  width: auto;
+}
+.stories {
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+ul {
+    list-style: none;
+}
+.stories h1 {
+    font-size: 32px;
+}
+.stories p {
+    font-size: 17px;
+}
+.icons {
+    margin-top: 300px;
+    color: #fff;
+}
+.icons ul li {
+    margin-top: 24px;
+}
+.main {
+    margin-top: 250px;
+    color: #fff;
+}
+.main h1 {
+    font-size: 72px;
+    color:#F55800;
+}
+.main h2 {
+    font-size: 32px;
+    margin-top: 24px;
+}
+.main p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 24px;
+    color: #F4F5F7;
+}
+h1{
+    color: #091E42;
+    font-size: 40px;
+
+}

@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Portfolio-Webpage</title>
 </head>
 <body>
-    <div class="narbar d-flex">
-        <a href="#"><h3>KGW</h3></a>
-        <nav>
-            <a href="#">Portifolio</a>
-            <a href="#">About</a>
-            <a href="#">contact</a>
+    <div class="narbar d-flex justify-content-between bg-secondary px-5">
+        <a href="#"><h3 class="text-white">KGW</h3></a>
+        <nav class="nav d-flex justify-content-evenly">
+            <a href="#" class="text-white">Portifolio</a>
+            <a href="#"class="text-white">About</a>
+            <a href="#" class="text-white">contact</a>
             <a href="#"><img src="image/Union.png" alt="envelope"></a>           
         </nav>
     </div>
-    <section class="icons">
+    <section class="d-flex bg-dark">
         <div class="icons">
             <ul>
                 <li> <a href="#"><img src="image/Vector.png" alt="Github" class="media"></a></li>
@@ -28,81 +29,100 @@
                 <li><a href="#"><img src="image/Icon-Medium.png" alt="M" class="media"></a></li>
             </ul>
         </div>
-        <h1>Hey There. <br>
-            I'm Kidde George</h1>
-        <h2>I'am a Software Developer</h2>
-        <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,  don't hestiate to contact me.
-        </p>
+        <div class="main">
+            <h1>Hey There. <br>
+                I'm Kidde</h1>
+            <h2>I'am a Software Developer</h2>
+            <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,  don't hestiate to contact me.
+            </p>
+        </div>
+        <img src="image/illustration-header.png" alt="Header-image">
     </section>
     <!--Work section-->
-  <div class="Worksection">
-    <section class="tonic">
-      <h1>My Recent Works</h1>
-      <img src="images/Placeholder.png" alt="" aria-hidden="true" class="bg">
-      <h2 class="hone">Multi-Post Stories</h2>
+    <section class="tonic m-5">
+        <h1 class="m-3">My Recent Works</h1>
+        <div class="d-flex m-3">
+            <img src="image/Placeholder.png" alt="" class="mt-5" aria-hidden="true" class="bg">
+            <div class=" ms-5">
+             <h2 class="hone mt-5">Multi-Post Stories</h2>
+             <p class="par">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+             <ul class="d-flex ps-0">
+                <li class="li me-3 p-2 bg-secondary">html</li>
+                <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                <li class="li me-3 p-2 bg-secondary">Ruby</li>
+            </ul>
+             <button type='button' class="bttn">See Project</button>
+            </div>
+        </div>
+      <div class="d-flex my-3">
+          <img src="image/placeholder1.png" alt="" class="mx-4" aria-hidden="true" class="bg">
+            <div class="work mx-4">
+                <img src="image/Placeholder2.png" alt="" aria-hidden="true" class="bg">
+                <div class="stories">
+                    <h1>Data Dashboard Healthcare</h1>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <ul class="d-flex ps-0">
+                        <li class="li me-3 p-2 bg-secondary">html</li>
+                        <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                        <li class="li me-3 p-2 bg-secondary">Ruby</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="work mx-4">
+               <img src="image/Placeholder3.png" alt="" aria-hidden="true" class="bg">
+               <div class="stories">
+                <h1>Website Protfolio </h1>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                <ul class="d-flex ps-0">
+                    <li class="li me-3 p-2 bg-secondary">html</li>
+                    <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                    <li class="li me-3 p-2 bg-secondary">Ruby</li>
+                </ul>
+               </div>
+            </div>       
+        </div>
+            <div class="d-flex">
+                <div class="work mx-4">
+                  <img src="image/Placeholder4.png" alt="" aria-hidden="true" class="bg">
+                  <div class="stories">
+                    <h1>Profesional Art Printing Data More</h1>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <ul class="d-flex ps-0">
+                        <li class="li me-3 p-2 bg-secondary">html</li>
+                        <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                        <li class="li me-3 p-2 bg-secondary">Ruby</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="work mx-4">
+                 <img src="image/Placeholder2.png" alt="" aria-hidden="true" class="bg">
+                 <div class="stories">
+                    <h2>Data Dashboard Healthcare</h1>
+                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                    <ul class="d-flex ps-0">
+                        <li class="li me-3 p-2 bg-secondary">html</li>
+                        <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                        <li class="li me-3 p-2 bg-secondary">Ruby</li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="work mx-4">
+                  <img src="image/Placeholder3.png" alt="" aria-hidden="true" class="bg">
+                  <div class="stories">
+                        <h2>Website Protfolio </h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="d-flex ps-0">
+                            <li class="li me-3 p-2 bg-secondary">html</li>
+                            <li class="li me-3 p-2 bg-secondary">bootstrap</li>
+                            <li class="li me-3 p-2 bg-secondary">Ruby</li>
+                        </ul>
+                  </div>
+              </div>
+            </div>
       
-      <p class="par">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-      <ul class="programming">
-        <li>css</li>
-        <li>html</li>
-        <li>bootstrap</li>
-        <li>Ruby</li>
-      </ul>
-      <button type='button' class="bttn">See Project</button>
-      <img src="image/placeholder1.png" alt="" aria-hidden="true" class="bg">
-      <div>
-        <img src="image/Placeholder2.png" alt="" aria-hidden="true" class="bg">
-        <h1>Data Dashboard Healthcare</h1>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-        <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-        </ul>
-      </div>
-      <div>
-        <img src="image/Placeholder3.png" alt="" aria-hidden="true" class="bg">
-        <h1>Website Protfolio </h1>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-        <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-        </ul>
-      </div>
-      <div>
-        <img src="image/Placeholder4.png" alt="" aria-hidden="true" class="bg">
-        <h1>Profesional Art Printing Data More</h1>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-        <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-        </ul>
-      </div>
-      <div>
-        <img src="image/Placeholder2.png" alt="" aria-hidden="true" class="bg">
-        <h1>Data Dashboard Healthcare</h1>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-        <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-        </ul>
-      </div>
-      <div>
-        <img src="image/Placeholder3.png" alt="" aria-hidden="true" class="bg">
-        <h1>Website Protfolio </h1>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-        <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-        </ul>
-      </div>
     </section>
     <section class="About-me">
-        <div>
+        <div class="main">
           <h1>About me</h1>
           <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
         </div>
@@ -147,8 +167,7 @@
             </form>
         </div>
     </footer>
-   
-</body>
-<!-- JavaScript Bundle with Popper -->
+   <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
