@@ -55,7 +55,19 @@ ul {
     color: #F4F5F7;
 }
 h1{
-    color: #091E42;
-    font-size: 40px;
+    font-size: 72px;
+    color:#F55800;
 
+}
+.image {
+    width: 60%;
+}
+.About-me {
+    width: 100%;
+}
+.tonic {
+    margin-right: 50px;
+}
+.ability {
+    margin-top: 100px;
 }
